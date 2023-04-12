@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+Planning the structure:
+Components Required: 
+1. Header - Logo | Save | Setting | Change View | Sign up | Login
+2. Editor - HTML(Settings, Quick menu) | CSS(Settings, Quick menu) | JS(Settings, Quick menu) | Notepad
+3. Output - Blank white Bg | Console/Asset/Shortcuts Option
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Resources :
+Codepen logo link : data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgQAAABiCAMAAAAY7jvKAAAAe1BMVEX///8AAADz8/Pi4uJ1dXWNjY1OTk7c3Nw+Pj7s7OxVVVXOzs7FxcUkJCQ2Nja1tbVnZ2dGRkaVlZUtLS2urq74+Pijo6OAgIDp6ekYGBinp6eIiIi9vb0pKSmmpqbR0dFjY2MeHh4QEBA7OzszMzObm5txcXFKSkpmZmZDuiT0AAANx0lEQVR4nO2d6YKyOgyGWVRccBd3B2F0/O7/Co8bJSlNWgX0jNP334zQQnlI2zQNjmNlZWX1PkWeF737Gqzeq3Dsuu3hu6/C6p3apO5FC+/dF2L1LvVuCFy0tX3Cn5S3cIEay3dfj9XrdRkNQPW3774iqxers3EL+vHffVVWr1SvVWTgPE2wxuDvqLNQIXBRt/Pua7N6jbYnigHXHczefXVWL5BqNAA1ssbg4xVOeQbO0wRrDD5b0SaFz3ty7xjaR4TBwhqDD1aInvU/P7pPEsZL7wf9NLQOxP+jomA7+5rP5+th+Ox0HrsI02PkeBkEvhNtkY1oWJ/B/0xR0OwO+tlDWu3ao/UT679hGz7lbnD+F4DAcXxkDBLrM/gfKeo1VWO57vCxdxX7BnbH6z8RBI4zG8BjfoKHKgiPjYIWzfU2DB7k1dtuiiUVFDIl9CaKExYTQxsahU199T/0OxIcG5PYoJ7evaiRvn22o5UCgYu+Hxm/hcg3ML4/XwkCxx/BowaPGIM5cZXn69w3TdpEaE+WBDWnC2im1EnjhsGVNIzq31CnD/vnX9MvfT3DrCjdOn7I+HXOWhgu/XXQje3W2f9lCM5XhoyBuQNxq2mzo7HdIr2ZWDQEQ/a8tg6DiVn9TeJ0//67fp5tCEGnqbuUb6OgoCFaMNznzVCEwPERLwdDn0GkfXT9iRkGy7aupJtoCH40Z05Y8+t1zeqnIBCPrKe7UzMIet8GF7PX9ih4NJDOwQkKCJxoiIYg/4yMgadckMLaTUxKivsGN+0yEHS0T/HENVkw0J1+EwWBeIcOuiGVCQTR2uxqvjWVhTt49B4drYLg3Ix4mrB29DKB4FyN9u04k18/BO6J6UUrg8D91vT1JhAY9o3ujoUgwisFa1yhGoKzMUAnGQxAzSBwE2Y4d9crIHD3dP3VQeA2+DvVQxCNcJ2H/WZ4nWt5vXmjlYBf2IEOdhGO5G6ZgOD8A+5YZ7o+xxCCc8PohsIvgcBdkPWbQkDNDhoGx9ykhwDbgf0Mve5ROBc2njPWzGjgJhKC83AfzUx1DkQBQb8FNS56OHSzYgHBoNviRE5fBQQJLgBH05Edk4BgytZ/otodjavZnlQLATLi3V6x4TqzW2Nxgy2Fi1ASA4HsQOSnIQKCHw+p0wmOYzxt/+EpEBB8RR4nshQBwV4qoAPDqUgWBQTN5+pHEKScS0sHwQwUNCaaP2quOLPmLNHlTI+qYzgIZJ/BiBt7CAhU/aB/RG8hT4GA4NkFbQHBqPjbMB8kU49HQGA0lykKu5q4KYIGggD0iz/0SDZ2x3QPi91MLbU55yGQjMGBMQYsBGcgIdV889YKgRPk7UqcXi0E7pg+kofAy814yg6nPZIBPMubUn2TBoKCA5EEUgOB5LPk3NH1QgA8m8TpFUPA+HF4CECEx5O7BH3sIiRtUh5PQJaExpZTaiqihcBxvvJi2sw8vWYIIvF2ELdSNQTkXJKHAHQGzzYEXINJv+g+WIw/mX4aORC7hO0xgMAZ5gNEZihTMwR50xM2tnIIyBthIcjfPeVgzkQAgYJvIBfcg8TsP/IaYLZIvMMmEECnBe3cqBuCTlY+AWL1EFBjUA4CX7ww3WdjvDxwBfRUdYKmbmmDrA3GHBFIGUEAegT1A7qobgicA3+lVUGwyg3oQd1oHAQ5Sk/vF4cQuHv1y9sreMZ2amOAPU7E8MIMgnyJjZ5A1w7BgL/SqiAYBEnessonyUEgTtX72SkhCNyDwhh4OLz4ro1ikWCLPW3lIPAEeaTdqR2CKX+lVUEwhSEWyiEXA4H4qfV83DeG4Hy/clEBsWj/Lb+g3kaK0ikHARgWUBOEuiGIswEOMWqvDgIHRIOoCmMgEFMYkxVcQjIEboqmmjhWpY+WmnGsUq8Q2lYSgnzeQg1664ZABA4Rs+8KIYjAIFFh1mkIxAx/VSKDTAECtBwco2W2cU/6OzcG0aIYrFcWAmEjT8QBNUOwFIE6RPtWCIHjga60uGJFQyDsJeXWNJECApGQxkNmILkaxRlavs2MAY5GqQgC8YgoyGuGQFiiHXF6lRA4nbwJi342GgIRTmQQhEMqg+CAZgDX5eAeeu279ysLcJTxxRjgnSrTrKSyEOQdJeGYqBUCL1+dpYbdlUIAoyMK6zw0BKIbKbMdMIOg20EP97B1mqiTb4rqoy/4/3QR9dD602mZIVEaAmHqiEauEwJwU1PKh1YtBDD0WbbtJARRNmyn/LNGEhCcLQsdKNNFBgqvGCLt5rkbszQEYgpMeOwEBJuwKBPvmYCg1cMnowVt0hkrIGj0ivUbPBQJAhjBLt0xDUH2pvKRSRoBCKT9JEATqe6I2j5y3alSHQRZNzlStygbXmbyZhiFl03JktjwMoM9WTIEEXi5cBdEQiCGdKVyBEAI5OXgu8aK+1mq9v70b3tpqoMgq6RFeDJfAgH9NKuGwIlAqyI3zEshUFn6o7o554l8YLZTpToIspLa6l75JRAwrVs5BM4SrCLAAvQQlEo3LEFwri9B90JvxZL3/4hl6OogyAbo3++DgHvDqofACfPR+ACMal4MgXfEnr8DuW4cS03QzCYpHwQBffcX1QABXEUAK8Ov7Q6CYrOo95NE8kpB7kCsDoKsld7VHez56Pk6IIBThHzJQg+BwdZmWggCT73NVvE69JQ5rW4OxOogyJ4RseO5XghWey4I/KJaIID7dcUUgZ4iJlnTG9wuKQhBTLWJvJ/Eo1LbXR2I1UGQPWQi8r9GCAY/cx0CNUGA9jpn10BDkPm0WhU5i5oJvAn0quMcFDjR7QH2C+kiqsFZRHhCBATHpV+Qyc3nm0+kApYdE1+TgGCjqN+gADUEzjJv0Om9DWm3sbAblbiNYxQR0o0lB2Ke0RpnuOwfpWllP87urTQEYpBE+OxqDyrRqGK3cV5ubuEONw8JDYHYpaE3XLQyCHCowHWkjx2IWUbrEJmBqyMpQrFHSWZDSkMgaHvHApKB6oIABRpd/0FDID5G0pV/eUCqpeR29vhmB/jvf548Guhn+1Z9lQOxLATLrL9L3rOUrFVtEMDtJNeukIZANNKqRH+ggAC4CLGlHwxxvmuQzMY5JpVDkEfPEQd8LgQwGv3SFzLhZQ143JMqQDBA0QnRDPqOUuRIwtvX/ULCnJIQiIEv+Yw/GAKYxCFkIRDr7YRHzUQyBEd5VNv5Jz/cm4ob1tbSjK0kBGLIk1KG7oMhcLy8J97FZiHn5CY2rTAEY8UYU0pIc9dccTmSn6EcBEvRCuRS+SdDAJ0g7UiMFBWtnjv4njYFEIKEaO5lIc6A2rf6lVQFQb623ieXsD4aAjhF2AurqNqGJmh5eucBgCClV6Lw0uKKvmmwClZuG1oe40qH0X42BHCKIObvqnlS3lRPhxcBCE50xGoA5oBjeouo3wLuwzIbUkGmCtrIfTgEqqyfKgg6+fDhyQvBW2M3dDaA+f0dX9HjD7z+RKX6MYEAFMTc14dDUEhLR0AA35gn9yPiRRTaGIhMJSQnAfIYEcu/JhBEYL/DiennPh0CZ1nY1aV2m4GGX7ApWOlVLRxGQqWj1KWriZAZSOmlTS0EMfBIpdyeio+HoJi4Vw2BDzy7qsxzd23dAZPVCr/C6qUIDQSxoUHRQhAgmNhYic+HoJARnnCgw0SkO8J1eM1N9Y+uCr/FK+VbzEMwSWAJqn3rhYKUEMQNtITND3f/AASOlBeAihpAG4J2s+ILH9y7WDq/iNyfTxXGgINA+kwG/5kAAcE/vAAfxFs5f4vGB8bGEwDRidsqgkAVT2BQvwkEUr5a8lZwTFiriZ6gN1wk2U8csFIqis0DaW2lrShNjctCQJC0oQaJK0sXMiUg2LU50R96qAqCPlv/gRqyG0GAP6pAxw/J37vodydbf7lcxrPFGA362NhZnMuumIOCgiBA52m/FmKe4Fq7LFZdguuSEGiky3LOQuB48C6ZILIj+SUfrIR9QtEcFSO90QQEkgUhdqqoCtKIj/a+6m9A4MRgmMQ1r+6zQnfRaUbvd4X2k+DvTqgh8NFoYGAS42QGgSba+6o/AgHcrsy+Y8rQHknU+hDUOoFnwIQ0KgiwizA1W8s0+XJQy2hDTaxKjaFQbRCYfHPILQ8BmCLwhtb7Ul9ALm7ungtnpgBLywoIjPwLRWk+xX5ulJnZclin7IewSkLgmX2RrzwE4shU19suG9RXES/6Xpumu5yrHYgFCCI0HmVchLKKKa6gdq2tcWJOZXK9ouqCAH1mgFF5CLJVBIOlgd6Gso8tVQwIpRjFEmX9vAwBNhmtR1LmbCkKVq3NzGDTRi6zjz/REGTDk/0jlQKZfRiR6oazkIlEX9HN6Mh5ItTyZyoLOeo9Fm2AQ8jv77gEwQMuQsVlDpsFTb7CwH80KiIK5sWSCiLnRNH6dsDm6T29wVpf/YbqJ4eb2wEmIaJefJybfzzWmy324/sXs9ND66f5zK4EvOWgf81OBSHAX8s5PfRpW6uXKPLjMNxut2EvMPw2brEI3N0uPAiB9KPORWj1a+Wj6fx3mEFw8h91EVr9YuGENIt7D/CNB2MGLkKr3ywqt3UuIxeh1e+WvJ8Ei4k6tvogxYxT7GTNwF/RnFihTEvl0LT6XQqUeU67ZbJqW/06qZLYPugitPr9kpMetx5y8Ft9hiIUuzSxZuBvKncgtq0Z+Lua33wG1kX4p+V3H4wbsLKysrKysrKysrKqV/8BaAvKTeDf6G0AAAAASUVORK5CYII=
