@@ -74,7 +74,8 @@ export default function Header() {
               </Box>
             </Box>
             <Box component="div">
-              <Button
+              {/* <Button
+              onClick={onDownload}
                 variant="contained"
                 startIcon={<CloudIcon />}
                 sx={{
@@ -86,7 +87,7 @@ export default function Header() {
                 }}
               >
                 Save
-              </Button>
+              </Button> */}
               <Button
                 variant="contained"
                 title="Settings"
@@ -114,7 +115,7 @@ export default function Header() {
               >
                 <ViewQuiltIcon />
               </Button>
-              <Button
+              {/* <Button
                 variant="contained"
                 sx={{
                   color: "black",
@@ -139,7 +140,7 @@ export default function Header() {
                 }}
               >
                 Login
-              </Button>
+              </Button> */}
             </Box>
           </Toolbar>
         </Box>

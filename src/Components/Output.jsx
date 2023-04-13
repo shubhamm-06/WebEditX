@@ -12,16 +12,17 @@ const Output = ({ html, css, js }) => {
   `;
 
   return (
+    <>
     <Box 
       component={"iframe"}
       srcDoc={htmlCode}
       title="output"
       sx={{
-        width:"99vw",
-        // height:"100vh"
+        width:"99%",
+        height:{md:"100%", sm:"100vh"}
       }}
-      
       />
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import './styles.css';
 import React from 'react';
 import Header from './Header';
-import Workspace from './Workspace';
+import View from './View';
 export default function Home() {
   return (
     <Box component="div"
@@ -12,7 +12,7 @@ export default function Home() {
     }}
     >
     <Header />
-    <Workspace />
+    <View />
     </Box>
   )
 }
