@@ -23,3 +23,4 @@ WebeditX is currently deployed on Netlify at https://webeditxx.netlify.app/.
 
 Conclusion
 WebeditX is a web app that allows you to code websites live using HTML, CSS, and JS. It provides a user-friendly interface and supports real-time preview of your code. You can download your code as a .html file for easy sharing and saving. Try WebeditX at https://webeditxx.netlify.app/ and start coding your websites live!
+NOTE: I am aware of several bugs to be fixed and some important features to be added.
