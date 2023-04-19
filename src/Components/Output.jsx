@@ -19,7 +19,7 @@ const Output = ({ html, css, js }) => {
       title="output"
       sx={{
         width:"99%",
-        height:{md:"100%", sm:"100vh"}
+        height:{md:"97%", sm:"100vh"}
       }}
       />
     </>
