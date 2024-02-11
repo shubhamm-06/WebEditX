@@ -32,7 +32,7 @@ const HTML = ({ code, setCode }) => {
       </Typography>
       <Editor
         width="32vw"
-        height="50vh"
+        height="85%"
         defaultLanguage="html"
         theme={theme} // Initial theme
         options={{

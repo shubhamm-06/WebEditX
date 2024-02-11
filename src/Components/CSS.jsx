@@ -35,7 +35,7 @@ const CSS = ({ code, setCode }) => {
       </Typography>
       <Editor
         width="32vw"
-        height="50vh"
+        height="85%"
         defaultLanguage="css"
         theme={theme} // Initial theme
         options={{
